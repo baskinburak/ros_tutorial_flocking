@@ -1,0 +1,76 @@
+<launch>
+
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+
+  <group ns="turtle1">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle2">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+    <group ns="turtle3">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle4">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle5">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle6">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle7">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+    <group ns="turtle8">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+      <group ns="turtle9">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+      <group ns="turtle10">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+      <group ns="turtle11">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+      <group ns="turtle12">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+
+      <group ns="turtle13">
+    <node pkg="flocking" type="controller" name="controller"/>
+    <node pkg="flocking" type="boid" name="boid"/>
+  </group>
+
+</launch>
